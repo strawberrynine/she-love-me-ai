@@ -1,0 +1,19 @@
+services:
+  - type: web
+    name: she-love-me-ai
+    runtime: node
+    plan: free
+    buildCommand: npm ci && npm run build
+    startCommand: npm start
+    healthCheckPath: /api/health
+    envVars:
+      - key: NODE_VERSION
+        value: 22
+      - key: OPENAI_ENABLED
+        value: true
+      - key: OPENAI_MODEL
+        value: gpt-5.6-sol
+      - key: OPENAI_REASONING_EFFORT
+        value: high
+      - key: OPENAI_API_KEY
+        sync: false
