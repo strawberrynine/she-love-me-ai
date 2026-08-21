@@ -4,6 +4,18 @@
 
 > 这不是“输入一句话 + 一段 Markdown”。Tools 计算可复现事实，Knowledge Layer 提供专业框架和判断纪律，GPT-5.6 Sol 负责完整上下文中的语义理解与综合判断，结果由 Structured Outputs 和服务器端证据回查共同约束。
 
+## Product Preview
+
+<p align="center">
+  <img src="./docs-readme-home.png" alt="她爱你吗？三猫专业团队首页" width="92%" />
+</p>
+
+<p align="center">
+  <img src="./docs-readme-report.png" alt="关系分析结果 Dashboard：关系分数、心动三维与凤雏分析" width="92%" />
+</p>
+
+> Screenshots are captured from the deployed Demo. The report view shows the evidence-first score, Chemistry Triangle, traceable evidence, and Fengchu deep reasoning in one structured result.
+
 ## Demo
 
 本地启动后点击「体验 Demo」即可使用虚拟数据，无需模型或 API Key。开发地址为 `http://localhost:5173`；生产构建由 `http://localhost:8787` 同时提供 Web App 和 API。
