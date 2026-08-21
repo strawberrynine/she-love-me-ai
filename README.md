@@ -7,11 +7,11 @@
 ## Product Preview
 
 <p align="center">
-  <img src="./docs-readme-home.png" alt="她爱你吗？三猫专业团队首页" width="92%" />
+  <img src="./docs-readme-home.png" alt="她爱你吗？三猫专业团队首页" width="100%" />
 </p>
 
 <p align="center">
-  <img src="./docs-readme-report.png" alt="关系分析结果 Dashboard：关系分数、心动三维与凤雏分析" width="92%" />
+  <img src="./docs-readme-report.png" alt="关系分析结果 Dashboard：关系分数、心动三维与凤雏分析" width="100%" />
 </p>
 
 > Screenshots are captured from the deployed Demo. The report view shows the evidence-first score, Chemistry Triangle, traceable evidence, and Fengchu deep reasoning in one structured result.
